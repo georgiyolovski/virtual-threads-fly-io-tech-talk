@@ -1,0 +1,22 @@
+{
+  "name": "fly-app",
+  "version": "1.0.0",
+  "description": "A sample Express app, deployed to Fly.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgiyolovski/virtual-threads-fly-io-tech-talk.git"
+  },
+  "author": "Georgi Yolovski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/georgiyolovski/virtual-threads-fly-io-tech-talk/issues"
+  },
+  "homepage": "https://github.com/georgiyolovski/virtual-threads-fly-io-tech-talk#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
