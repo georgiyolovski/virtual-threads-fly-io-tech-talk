@@ -9,7 +9,7 @@ public class Application19 {
     long startTime = System.currentTimeMillis();
     System.out.println("Starting...");
 
-    int processCount = 500_000;
+    int processCount = 100_000;
     Executor executor = Executors.newVirtualThreadPerTaskExecutor();
     List<CompletableFuture<Void>> futures = new ArrayList<CompletableFuture<Void>>();
     for (int i = 0; i < processCount; i++) {
